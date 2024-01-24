@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Gen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section>
+        <div class="top-sec">
+          <h2 class="heading">
+            Generate a <br /><span class="head-style">random Passowrd</span>
+          </h2>
+          <p class="fine-print">Never use an insecure password again.</p>
+
+          <div class="choice">
+            <div class="number">
+              <label for="num-toggle" class="num-toggle">Num:</label>
+              <select name="num-toggle" id="num-toggle">
+                <option value="on">On</option>
+                <option value="off">Off</option>
+              </select>
+            </div>
+            <div class="symbol">
+              <label for="symbol-toggle" class="symbol-toggle">Symbol:</label>
+              <select name="symbol-toggle" id="symbol-toggle">
+                <option value="on">On</option>
+                <option value="off">Off</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn1">Generate passwords</button>
+        <input
+          placeholder="Enter the length of Password"
+          class="input"
+          type="text"
+        />
+        <div class="display">
+          <span class="dis1 dis1--1" data-tooltip="Click to save"></span>
+          <span data-tooltip="Click to save" class="dis2 dis2--1"></span>
+        </div>
+      </section>
+      <section>
+        <div class="top-sec">
+          <h2 class="heading">
+            Generate a <br /><span class="head-style">random Passowrd</span>
+          </h2>
+          <p class="fine-print">Never use an insecure password again.</p>
+
+          <div class="choice">
+            <div class="number">
+              <label for="num2-toggle" class="num-toggle">Num:</label>
+              <select name="num2-toggle" id="num2-toggle">
+                <option value="on">On</option>
+                <option value="off">Off</option>
+              </select>
+            </div>
+            <div class="symbol">
+              <label for="symbol2-toggle" class="symbol-toggle">Symbol:</label>
+              <select name="symbol2-toggle" id="symbol2-toggle">
+                <option value="on">On</option>
+                <option value="off">Off</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn2">Generate passwords</button>
+        <input
+          placeholder="Enter the length of Password"
+          class="input input-2"
+          type="text"
+        />
+        <div class="display">
+          <span class="dis1 dis1--2" data-tooltip="Click to save"></span>
+          <span data-tooltip="Click to save" class="dis2 dis2--2"></span>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
