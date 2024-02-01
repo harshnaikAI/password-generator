@@ -62,24 +62,29 @@ section {
   display: flex;
   justify-content: space-between;
   /* flex-flow: row nowrap; */
+  overflow: hidden;
 }
 
 .dis1,
 .dis2 {
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   min-width: 47%;
   max-width: max-content;
-  white-space: no-wrap;
+  /* white-space: no-wrap; */
 
   min-height: 2.5rem;
   background-color: #273549;
   border-radius: 6px;
   color: #55f991;
-  text-align: center;
+  /* text-align: center; */
   cursor: pointer;
   transition: all 0.75s;
   position: relative;
+
+  word-break: break-all;
 }
 
 .dis1:active,
@@ -92,7 +97,7 @@ section {
   position: absolute;
   top: -1.15rem;
   left: 50%;
-  /* height: 25px; */
+  height: 25px;
   width: max-content;
   transform: translate(-50%, -100%);
   background-color: #000;
@@ -156,7 +161,6 @@ section {
 }
 
 .section-1 {
-  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -176,5 +180,9 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+  }
+
+  section {
+    width: 50%;
   }
 }

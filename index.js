@@ -138,8 +138,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const btnPass1 = document.querySelector(".btn1");
   const btnPass2 = document.querySelector(".btn2");
 
-  let valueOfPass = 15;
-
   let inputvalue = document.querySelector(".input");
   let input2value = document.querySelector(".input-2");
 
