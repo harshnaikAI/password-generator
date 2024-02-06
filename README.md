@@ -1,5 +1,7 @@
 # Password Generator
-Solo project from Scrimba's " The Front End Developer Carrier Path ". In this project we can generate random passwords.
+Solo project from Scrimba's " The Front End Developer Carrier Path ". 
+
+In this project we can generate random passwords.
 
 1. Key Features
     - Changes designs according to screen sizes.
