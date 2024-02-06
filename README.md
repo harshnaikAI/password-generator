@@ -1,5 +1,5 @@
 # Password Generator
-Solo project from Scrimba's " The Front End Developer Carrier Path
+Solo project from Scrimba's " The Front End Developer Carrier Path "
 
 1. Key Features
   - Changes designs according to screen sizes.
