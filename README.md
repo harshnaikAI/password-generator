@@ -6,7 +6,7 @@ Solo project from Scrimba's " The Front End Developer Carrier Path "
     - Option to toggle Symbols and Charecters.
     - User can decide the length of Password.
     - Click to copy the Password.
-    - Technology used- HTML, CSS, JS, Firebase
+    - Technology used- HTML, CSS, JS.
       
 2. Screen Shot
    
